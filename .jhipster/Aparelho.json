@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220503170942",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "aparelho",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numeroSerie",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Status",
+      "fieldValues": "EM_ESPERA,EM_USO,EMERGENCIA,INATIVO,QUEBRADO"
+    },
+    {
+      "fieldName": "carga",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Aparelho",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

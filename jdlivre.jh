@@ -1,0 +1,17 @@
+entity Aparelho {
+nome String,
+numeroSerie String
+status Status,
+carga Integer
+}
+
+enum Status {
+	EM_ESPERA, EM_USO, EMERGENCIA, INATIVO, QUEBRADO
+}
+
+
+
+
+
+
+
